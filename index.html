@@ -1,22 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>中企云链官网</title>
     <style>
-      html {
-        touch-action: pan-y;
-        -webkit-text-size-adjust: 100%;
-      }
-      body {
-        overflow-x: hidden;
-        position: relative;
-      }
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        body,html{
+            background: rgb(246, 247, 251);
+            width: 100%;
+            height: 100%;
+        }
+        .box{
+            width: 100%;
+            height: 100%;
+        }
+        header{
+            width: 100%;
+            height: 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 5px;
+            background: #fff;
+        }
+        .logo{
+            height: 20px;
+        }
+        .h-t{
+            height: 100%;
+            display: flex;
+            align-items: center;
+        }
+        .dh{
+            width: 12px;
+        }
+        .dhhm{
+            font-size: 12px;
+            margin-right: 15px;
+        }
+        .dh1{
+            width: 15px;
+        }
+        .main{
+           width: 100%;
+           height: 100%;
+           display: flex;
+            
+        }
+        .m-l{
+            height: 100%;
+            width: 60px;
+            background: rgb(30, 34, 45);
+            /* height: calc(100% - 30px); */
+            padding-top: 20px;
+            text-align: center;
+           
+        }
+        .line{
+            margin-left: 5px;
+            width: 50px;
+            height: 1px;
+            background-color: rgb(40, 51, 64);
+          
+        }
+        .m-r{
+            flex: 1;
+            background: #fff;
+            
+          
+        }
+        .dddd{
+            width: 80%;
+            height: 60px;
+        }
+        .nr{
+            padding: 10px;
+        }
+        .de{
+            display: flex;
+            margin-top: 20px;
+        }
+        .de span{
+            flex: 1;
+        }
+        .htxx{
+            font-size: 25px;
+            color: rgb(114, 164, 230);
+        }
     </style>
-  </head>
-  <body>
-    <a href="https://my.chsi.com.cn/archive/wap/index.jsp">11</a>
-    <a href="https://xz.chsi.com.cn/survey/index.action?from=main-wap">gz</a>
-  </body>
+</head>
+<body>
+    <div class="box">
+        <header>
+            <img src="./images/logo.png" alt="" class="logo">
+            <div class="h-t">
+                <img src="./images/dh.png" alt="" class="dh">
+                <span class="dhhm">400-800-7778</span>
+                <img src="./images/tx.png" alt="" class="dh1">
+            </div>
+        </header>
+        <div class="main">
+            <div class="m-l">
+                <div class="line"></div>
+            </div>
+            <div class="m-r">
+                <div style="display: flex; justify-content: center;">
+                    <img src="./images/1.png" alt="" class="dddd" >
+                </div> 
+                <div class="nr">
+                    <span class="htxx">合同信息</span>
+                    <div class="de">
+                        <span>合同名称:</span>
+                        <span>离职证明-徐遇安</span>
+                    </div>
+                    <div class="de">
+                        <span>合同编号:</span>
+                        <span>465485</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
 </html>
